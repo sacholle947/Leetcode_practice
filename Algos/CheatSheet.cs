@@ -79,6 +79,12 @@ class CheatSheet
         int value = myDict["Two"];
 
         Console.WriteLine(value);
+
+
+        foreach(var v in myDict){
+            Console.WriteLine(v.Key);
+            Console.WriteLine(v.Value);
+        }
     }
 
     public static void getArray()
